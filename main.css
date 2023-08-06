@@ -1,0 +1,72 @@
+@import url(classes.css);
+@import url(animations.css);
+
+/* Site-wide colors and styles */
+:root{
+    font-family: 'Segou UI', 'Calibri', Arial, 'Helvetica Neue', 'Times New Roman';
+    --switch-height: 17px;
+    --switch-width: 34px;  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+    --primary-color: hsla(
+        calc(var(--hue) + var(--BG-hue)), 
+        calc(var(--sat) + var(--BG-sat)),
+        calc(var(--light) + var(--BG-light)),
+        calc(var(--opacity) + var(--BG-opacity)));
+
+    --accent-color: hsla(
+        calc(var(--hue) + var(--accent-hue)), 
+        calc(var(--sat) + var(--accent-sat)),
+        calc(var(--light) + var(--accent-light)),
+        calc(var(--opacity) + var(--accent-opacity)));
+
+    --font-color:hsla(
+        calc(var(--hue) + var(--font-hue)), 
+        calc(var(--sat) + var(--font-sat)),
+        calc(var(--light) + var(--font-light)),
+        calc(var(--opacity) + var(--font-opacity)));
+
+    --contrast-color: hsla(
+        calc(var(--hue) + var(--contrast-hue)), 
+        calc(var(--sat) + var(--contrast-sat)),
+        calc(var(--light) + var(--contrast-light)),
+        calc(var(--opacity) + var(--contrast-opacity)));
+}
+
+html {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+}
+
+/* Input styles */
+input {
+    background-color: grey;
+    border-radius: 20px;
+    border: none;
+
+}
+
+/* Dialog container styling */
+dialog {
+    transition: 5s;
+    opacity: 0;
+    background-color: green;
+}
+
+dialog[open] {
+    opacity: 1;
+    background-color: red;
+    animation: fadeIn .25s normal forwards;   
+}
+
+dialog.fade[open] {
+    animation: fadeOut .25s normal forwards;
+}
+
+dialog::backdrop {
+    transition: 2s;
+    background-color: rgba(50, 75, 100, .8);
+}
