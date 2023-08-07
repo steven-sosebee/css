@@ -8,9 +8,9 @@
     --BG-sat:10%;
     --BG-light:10%;
     --BG-opacity:0;
-    --accent-hue:0;
+    --accent-hue:100;
     --accent-sat:0%;
-    --accent-light:10%;
+    --accent-light:30%;
     --accent-opacity:0;
     --contrast-hue:30;
     --contrast-sat:30%;
@@ -21,22 +21,22 @@
     --font-light:90%;
     --font-opacity:0;
     color: var(--font-color);
-    background-color: var(--primary-color);
+    
 }
   
 .light, .light * {
     /* Color parameters... */
-    --hue:210;
-    --sat:0%;
+    --hue:220;
+    --sat:20%;
     --light:80%;
     --opacity:1;
     --BG-hue:0;
-    --BG-sat:0%;
+    --BG-sat:15%;
     --BG-light:0%;
     --BG-opacity:0;
-    --accent-hue:0;
-    --accent-sat:50%;
-    --accent-light:-30%;
+    --accent-hue:-10;
+    --accent-sat:30%;
+    --accent-light:-15%;
     --accent-opacity:0;
     --contrast-hue:0;
     --contrast-sat:50%;
