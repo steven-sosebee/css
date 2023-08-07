@@ -1,7 +1,7 @@
 .dark, .dark * {
     /* Color parameters... */
-    --hue:200;
-    --sat:15%;
+    --hue:100;
+    --sat:20%;
     --light:10%;
     --opacity:1;
     --BG-hue:100;
