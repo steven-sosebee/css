@@ -21,6 +21,7 @@
     --font-light:90%;
     --font-opacity:0;
     color: var(--font-color);
+    color: var(--primary-color);
 }
   
 .light, .light * {
