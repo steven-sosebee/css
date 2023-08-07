@@ -2,7 +2,7 @@
 @import url(animations.css);
 
 /* Site-wide colors and styles */
-:root{
+*{
     font-family: 'Segou UI', 'Calibri', Arial, 'Helvetica Neue', 'Times New Roman';
     --switch-height: 17px;
     --switch-width: 34px;  
