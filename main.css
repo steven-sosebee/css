@@ -47,7 +47,15 @@ html {
 body {
     background-color: var(--primary-color);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 }
+
+body>*{
+    flex-grow: 1;
+}
+
 /* Input styles */
 input {
     background-color: grey;
