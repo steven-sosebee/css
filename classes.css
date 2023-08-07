@@ -19,9 +19,7 @@
     --font-hue:0;
     --font-sat:0%;
     --font-light:90%;
-    --font-opacity:0;
-    color: var(--font-color);
-    
+    --font-opacity:0;    
 }
   
 .light, .light * {
@@ -46,10 +44,12 @@
     --font-sat:0%;
     --font-light:-100%;
     --font-opacity:0;
-
-    color: var(--font-color);
 }
 
+.primary {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+}
 .parameter {
     background-color: rgb(226, 147, 43);
     border-radius: 10px;
