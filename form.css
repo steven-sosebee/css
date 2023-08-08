@@ -1,0 +1,51 @@
+.form-main{
+display: flex;
+flex-direction: row;
+margin: 10px 0;
+}
+
+form .labels, .inputs{
+display: flex;
+flex-direction: column;
+}
+form .labels{
+    margin-right: 5px;
+}
+form label{
+height: 1.2rem;
+padding: 3px 0;
+}
+
+input, select{    
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    height: 1.2rem;
+}
+input:focus-within{
+    outline: none;
+    --accent-light:15%;
+    outline-offset: none;
+}
+/* 
+select>option:active{
+    color: var(--accent-color);
+}
+select.standard>option {
+    color: var(--primary-color);
+} */
+
+form.standard{
+    --BG-sat:30%;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 30px;
+    --BG-light:10%;
+    background-color: var(--primary-color);
+}
+
+.outlined{
+    margin-bottom: 3px;
+}
+.outlined:focus-within{
+    outline: 1px solid white;
+}

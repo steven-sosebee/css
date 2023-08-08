@@ -1,0 +1,60 @@
+/* Global button formatting */
+.btn {
+  background-color: transparent;
+  border: none;
+  color: var(--font-color);
+  outline: none;
+  margin: .25rem .05rem;
+  border-radius: 2px;
+  padding: 2px 5px;
+
+  
+  transition: 0.1s ease-in;
+  position: relative;
+  cursor:pointer;
+}
+
+/* Button styles */
+.btn-contrast{
+  color: var(--primary-color);
+  border: solid var(--font-color) 1px;
+  background-color: var(--accent-color);
+}
+
+.btn-round{
+  border-radius: 50%;
+}
+.btn-round:hover {
+  transform: scale(1.05);
+  transform-origin: center;
+  color:var(--primary-color);
+  background-color: var(--font-color);
+}
+
+.btn-focus{
+  border: solid var(--font-color) 1px;
+  background-color: var(--primary-color);
+}
+
+.btn-fancy {
+  font-family:Helvetica;
+  width: 30%;
+  border-radius: 15px;
+  font-size: 16px;
+  background-color: hsla(235,30%,50%,.5);
+  box-shadow:  4px 5px 0 rgba(0,0,0,.141),0 1px 10px 0 rgba(0,0,0,.122),0 2px 4px -1px rgba(0,0,0,.2);
+
+}
+
+.btn-fancy:hover{
+  color: var(--primary-color);
+  background-color: var(--font-color);
+}
+
+.btn-app {
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+}
+
+/* Hover effects */

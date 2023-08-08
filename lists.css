@@ -1,0 +1,20 @@
+.list-plain li {
+  margin-bottom: .5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.list-plain li p {
+  margin-top: 0;
+}
+
+
+.effect-darken li{
+  --BG-light: -3%;
+  background-color: var(--primary-color);  
+}
+
+.effect-darken li:hover{
+  --BG-light: -5%;
+  background-color: var(--primary-color); 
+}

@@ -1,5 +1,9 @@
 @import url(classes.css);
 @import url(animations.css);
+@import url(buttons.css);
+@import url(form.css);
+@import url(lists.css);
+@import url(text.css);
 
 /* Site-wide colors and styles */
 *{
@@ -10,7 +14,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    
+
     --primary-color: hsla(
         calc(var(--hue) + var(--BG-hue)), 
         calc(var(--sat) + var(--BG-sat)),
@@ -46,6 +50,7 @@ html {
 
 button {
     all:unset;
+    outline: revert;
 }
 body {
     background-color: var(--primary-color);
