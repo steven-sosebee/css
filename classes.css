@@ -50,3 +50,7 @@
     background-color: var(--primary-color);
     color: var(--font-color);
 }
+
+.accent {
+    background-color: var(--accent-color);
+}
