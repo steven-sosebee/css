@@ -16,7 +16,7 @@
 
 /* Button styles */
 .btn-contrast{
-  color: var(--primary-color);
+  color: var(--font-color);
   border: solid var(--font-color) 1px;
   background-color: var(--accent-color);
 }
