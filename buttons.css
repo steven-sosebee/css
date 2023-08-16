@@ -1,9 +1,7 @@
 /* Global button formatting */
 .btn {
-  background-color: transparent;
-  border: none;
+  background-color: var(--primary-color);
   color: var(--font-color);
-  outline: none;
   margin: .25rem .05rem;
   border-radius: 2px;
   padding: 2px 5px;
