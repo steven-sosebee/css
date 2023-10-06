@@ -22,9 +22,10 @@ input, select{
     height: 1.2rem;
 }
 
-input:focus-within, :hover{
+input:focus-within, input:hover{
     outline: none;
     --contrast-light: 15%;
+    --contrast-hue:0;
     background-color: var(--contrast-color);
     outline-offset: none;
 
