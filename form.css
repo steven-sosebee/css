@@ -18,7 +18,7 @@ padding: 3px 0;
 
 input, select{    
     background-color: var(--accent-color);
-    color: var(--primary-color);
+    color: var(--font-color);
     height: 1.2rem;
 }
 input:focus-within{

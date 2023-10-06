@@ -51,6 +51,7 @@ html {
 button {
     all:unset;
     outline: revert;
+    
 }
 body {
     background-color: var(--primary-color);
