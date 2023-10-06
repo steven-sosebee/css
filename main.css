@@ -6,36 +6,13 @@
 @import url(text.css);
 
 /* Site-wide colors and styles */
-:root{
+* {
     font-family: 'Segou UI', 'Calibri', Arial, 'Helvetica Neue', 'Times New Roman';
     --switch-height: 17px;
     --switch-width: 34px;  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    /* Color parameters... */
-    --hue:100;
-    --sat:20%;
-    --light:10%;
-    --opacity:1;
-    --BG-hue:100;
-    --BG-sat:10%;
-    --BG-light:10%;
-    --BG-opacity:0;
-    --accent-hue:100;
-    --accent-sat:0%;
-    --accent-light:30%;
-    --accent-opacity:0;
-    --contrast-hue:30;
-    --contrast-sat:30%;
-    --contrast-light:70%;
-    --contrast-opacity:0;
-    --font-hue:0;
-    --font-sat:0%;
-    --font-light:90%;
-    --font-opacity:0;   
-
 
     --primary-color: hsla(
         calc(var(--hue) + var(--BG-hue)), 
