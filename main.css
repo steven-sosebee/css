@@ -100,3 +100,8 @@ dialog::backdrop {
 ul {
     all:unset;
 }
+
+a {
+    all:unset;
+    cursor: pointer;
+}

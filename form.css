@@ -21,10 +21,13 @@ input, select{
     color: var(--font-color);
     height: 1.2rem;
 }
-input:focus-within{
+
+input:focus-within, :hover{
     outline: none;
-    --accent-light:15%;
+    --contrast-light: 15%;
+    background-color: var(--contrast-color);
     outline-offset: none;
+
 }
 /* 
 select>option:active{
