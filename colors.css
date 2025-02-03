@@ -1,0 +1,103 @@
+:root{
+    --light-sat:20;
+    --light-opacity:1;
+    --light-light:40;
+    --light-hue:30;
+    --dark-sat:20;
+    --dark-opacity:1;
+    --dark-light:40;
+    --dark-hue:30;
+}
+
+.dark-primary {
+    background-color: hsla(
+        calc(var(--dark-hue)), 
+        calc(var(--dark-sat)  * 1%),
+        calc(var(--dark-light) * 1%),
+        calc(var(--dark-opacity)));
+
+    color: hsla(
+        calc(var(--dark-hue)), 
+        calc(var(--dark-sat) * 1%),
+        calc(100% - var(--dark-light) * 2%),
+        calc(var(--dark-opacity)));
+
+}
+
+.dark-secondary {
+    background-color: hsla(
+        calc(var(--dark-hue) - 30), 
+        calc(var(--dark-sat)  * 1%),
+        calc(var(--dark-light) * 1%),
+        calc(var(--dark-opacity)));
+
+    color: hsla(
+        calc(var(--dark-hue)), 
+        calc(var(--dark-sat) * 1%),
+        calc(100% - var(--dark-light) * 2%),
+        calc(var(--dark-opacity)));
+
+    /* background-color: var(--secondary-color);
+    color: var(--font-color); */
+}
+
+.dark-tertiary {
+    background-color: hsla(
+        calc(var(--dark-hue) - 90), 
+        calc(var(--dark-sat)  * 1% + 30%),
+        calc(var(--dark-light) * 1%),
+        calc(var(--dark-opacity)));
+
+    color: hsla(
+        calc(var(--dark-hue)), 
+        calc(var(--dark-sat) * 1%),
+        calc(100% - var(--dark-light) * 2%),
+        calc(var(--dark-opacity)));
+}
+
+
+.light-primary {
+    background-color: hsla(
+        calc(var(--light-hue)), 
+        calc(var(--light-sat)  * 1%),
+        calc(var(--light-light) * 1% + 60%),
+        calc(var(--light-opacity)));
+
+    color: hsla(
+        calc(var(--light-hue)), 
+        calc(var(--light-sat) * 1%),
+        calc(100% - var(--light-light) * 2%),
+        calc(var(--light-opacity)));
+
+}
+
+.light-secondary {
+    background-color: hsla(
+        calc(var(--light-hue) - 30), 
+        calc(var(--light-sat)  * 1%),
+        calc(var(--light-light) * 1%),
+        calc(var(--light-opacity)));
+
+    color: hsla(
+        calc(var(--light-hue)), 
+        calc(var(--light-sat) * 1%),
+        calc(100% - var(--light-light) * 2%),
+        calc(var(--light-opacity)));
+
+    /* background-color: var(--secondary-color);
+    color: var(--font-color); */
+}
+
+.light-tertiary {
+    background-color: hsla(
+        calc(var(--light-hue) - 90), 
+        calc(var(--light-sat)  * 1% + 30%),
+        calc(var(--light-light) * 1%),
+        calc(var(--light-opacity)));
+
+    color: hsla(
+        calc(var(--light-hue)), 
+        calc(var(--light-sat) * 1%),
+        calc(100% - var(--light-light) * 2%),
+        calc(var(--light-opacity)));
+}

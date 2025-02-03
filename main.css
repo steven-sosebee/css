@@ -1,3 +1,4 @@
+/* @import url(colors.css); */
 @import url(classes.css);
 @import url(animations.css);
 @import url(buttons.css);
@@ -14,7 +15,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    --primary-color: hsla(
+    /* --primary-color: hsla(
         calc(var(--hue) + var(--BG-hue)), 
         calc(var(--sat) + var(--BG-sat)),
         calc(var(--light) + var(--BG-light)),
@@ -36,7 +37,7 @@
         calc(var(--hue) + var(--contrast-hue)), 
         calc(var(--sat) + var(--contrast-sat)),
         calc(var(--light) + var(--contrast-light)),
-        calc(var(--opacity) + var(--contrast-opacity)));
+        calc(var(--opacity) + var(--contrast-opacity))); */
 }
 
 html {
@@ -66,9 +67,9 @@ body>*{
 
 /* Input styles */
 input {
-    background-color: grey;
-    border-radius: 20px;
-    border: none;
+    /* background-color: grey; */
+    /* border-radius: 20px;
+    border: none; */
 
 }
 
